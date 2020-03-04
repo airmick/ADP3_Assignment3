@@ -21,7 +21,7 @@ public class PolimorphismTest {
     public void test()
     {
         assertEquals(true, picanto != null);
-        assertTrue(cerato instanceof Kia);
+        assertTrue(cerato instanceof Vehicle);
         assertTrue(picanto instanceof Vehicle);
     }
 

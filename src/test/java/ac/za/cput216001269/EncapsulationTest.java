@@ -28,8 +28,8 @@ public class EncapsulationTest {
         Field privateStringField = Kia.class.getDeclaredField("color");
         privateStringField.setAccessible(true);
 
-        /*String fieldValue = (String) privateStringField.get(cerato);
-        System.out.println("fieldValue = "+fieldValue);*/
+        String fieldValue = (String) privateStringField.get(cerato);
+        System.out.println("fieldValue = "+fieldValue);
     }
 
     @After
